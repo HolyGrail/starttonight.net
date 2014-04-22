@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3,
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, del, dfn, em, font, img, ins,
+kbd, q, s, samp, small, strike, strong, sub, sup, tt,
+var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td{
+margin:0;
+padding:0;
+border:0;
+outline:0;
+font-weight:inherit;
+font-style:inherit;
+font-size:100%;
+font-family:inherit;
+vertical-align:baseline;
+}
+:focus{outline:0;}
+a, a:link, a:visited, a:hover, a:active{text-decoration:none}
+table{border-collapse:separate; border-spacing:0;}
+th, td {text-align:left; font-weight:normal;}
+img, iframe {border:none; text-decoration:none;}
+ol, ul{list-style:none;}
+input, textarea, select, button {font-size:100%; font-family:inherit;}
+select{margin:inherit;}
+hr{margin:0; padding:0; border:0; color:#000; background-color:#000; height:1px}
+/* reset */
+
+
+body{background:url(img/bg.png) repeat-x top #000; color:#fff;}
+a{color:#eb4086;}
+#container{width:960px; margin:auto;}
+#contents{margin-top:30px;}
+div.entry{margin-bottom:30px;}
+div.entry p{margin-left:54px;}
+div.entry iframe{margin-left:54px; margin-top:20px;}
+#footer{margin:auto; text-align:center; padding-top:50px; margin-bottom:30px; clear:both;}
+.twitter{float:right;}
+.map{float:left;}
+div.entry .map_text p{ margin-left:0;}
+.map_text{ padding-top:20px; float:right;}
+.access{clear:right;}
